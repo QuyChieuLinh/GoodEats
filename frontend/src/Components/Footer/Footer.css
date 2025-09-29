@@ -1,0 +1,22 @@
+footer {
+    z-index: 100;
+    width: 100%;
+}
+
+.copyright {
+    background: rgb(48, 48, 48);
+    color: rgb(115, 111, 111);
+    padding-bottom: 30px;
+}
+
+.legal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(27, 27, 27);
+    color:rgb(68, 68, 68);
+    align-items: center;
+}
+
+.legal #middle{
+    justify-self: center;
+}

@@ -1,0 +1,40 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background:  rgb(212, 212, 212);
+  border-bottom: 10px solid rgb(121, 178, 52);
+  padding: 10px;
+  z-index: 999;
+  position: sticky;
+  top: 0;
+}
+
+.logo a span{
+  color: white;
+}
+.logo a{
+  font-family: "Cherry Cream Soda";
+  /* color: rgb(200, 0, 0); */
+  color: rgb(174, 222, 0);
+  font-size: 25px;
+  padding: 2px;
+  background: rgba(123, 123, 123, 0.468);
+  border-radius: 5px;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background: rgb(234, 234, 234);
+  height: 2rem;
+  width: 20rem;
+}
+
+.nav-icons {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 2rem;
+  color: black;
+}

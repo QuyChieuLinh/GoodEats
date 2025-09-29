@@ -1,0 +1,22 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: clamp(180px, 12%, 250px);
+  margin-bottom: 200px;
+}
+
+.card {
+  margin: 10px;
+  background: white;
+}
+
+.card-img {
+  width: 10rem;
+  height: 10rem;
+  margin: 0px;
+  padding: 0px;
+}
+
+.card-details {
+  margin-left: 0px;
+}
