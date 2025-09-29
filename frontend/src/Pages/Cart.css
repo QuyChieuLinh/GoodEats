@@ -1,0 +1,43 @@
+.page-title {
+  text-align: center;
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.shopping-cart {
+  background: white;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.shopping-cart .card {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.shopping-cart .card .product-img{
+    width: 100px;
+    height : 100px;
+}
+
+.order-summary {
+  background: rgb(196, 196, 196);
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.order-summary .property {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-summary .checkout-button {
+    margin-top: 20px;
+}
